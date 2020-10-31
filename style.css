@@ -1,0 +1,238 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.intro {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(rgba(3, 73, 139, 0.5), rgba(194, 12, 118, 0.5)),
+    url(./img/annie-spratt-QckxruozjRg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+  padding: 150px 60px;
+  color: #f2f2f2;
+}
+#ceo {
+  background: #f2f2f2;
+}
+#intro p,
+#intro h1 {
+  font-weight: bolder;
+}
+.img-area img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+iframe {
+  border: 3px solid black;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+}
+.slider img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+#choose .col-md-3 {
+  height: 200px;
+}
+#apply {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 68, 7, 1) 1%,
+    rgba(74, 129, 219, 1) 100%
+  );
+}
+#address .container .row .col-md-3 {
+  background: #f2f2f2;
+  height: 150px;
+}
+#address .container .row .col-md-3 h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#apply .container .row .col {
+  color: whitesmoke;
+  font-weight: bolder;
+}
+#apply .container .row .col button:hover {
+  background-color: darkblue;
+}
+#footer .container .row .col-md-6 ul li a {
+  color: whitesmoke;
+  font-weight: bolder;
+}
+#footer .container .row .col-md-3 i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#choose .container .row .col-md-3,
+#courses .container .row .col-md-3 {
+  background: #f2f2f2;
+}
+#choose .container .row .col-md-3 h4 {
+  font-weight: bolder;
+}
+
+#about .container .row .col-md-6 p {
+  font-size: 1rem;
+}
+#about .container .row .col-md-6 .img-one {
+  clip-path: polygon(
+    38% 4%,
+    11% 21%,
+    5% 46%,
+    11% 68%,
+    29% 93%,
+    56% 96%,
+    82% 85%,
+    95% 55%,
+    95% 40%,
+    86% 25%
+  );
+}
+#about .container .row .col-md-6 .img-two {
+  border: solid 10px #f2f2f2;
+}
+#ceo .container .row .col-md-3 .img-three {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#gallery .container .col .slider div .image {
+  width: 100%;
+  height: 500px;
+  border-radius: 0;
+}
+#location .container .row {
+  background: #f2f2f2;
+}
+#test .container h1 {
+  font-weight: bolder;
+}
+#work {
+  background: linear-gradient(
+    90deg,
+    rgba(19, 64, 175, 1) 35%,
+    rgba(255, 0, 65, 1) 100%
+  );
+}
+#work .container h1 {
+  font-weight: bolder;
+  color: white;
+}
+#work .container .row .col-md-3 {
+  background: rgba(0, 0, 0, 0.5);
+  height: 250px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map-container-section {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-section iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.card .card-body .form textarea {
+  width: 100%;
+  height: 200px;
+}
+.courses {
+  padding-top: 10rem;
+}
+
+/* MEDIA QUERIES/// */
+
+@media (max-width: 600px) {
+  tbody tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  #work .container h1 {
+    font-size: 1.8rem;
+    padding: 0 15px;
+  }
+  #apply .container .row .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 900;
+  }
+  #apply .container .row .col h1 {
+    font-size: 25px;
+  }
+  #apply .container .row .col p {
+    font-size: 14px;
+  }
+  #choose .container h1,
+  #lecturer .container h1,
+  #courses .container h1,
+  #event .container h1,
+  #about .container .row .col-md-6 h1 {
+    font-size: 2.3rem;
+  }
+  #courses .container .row .col-md-3 h1 {
+    font-size: 32px;
+  }
+  #about,
+  #about .container,
+  #about .container .row,
+  #about .container .row .col-md-6 {
+    padding: 0;
+  }
+  #intro h1 {
+    font-size: 3.3rem;
+  }
+  #location .container .row .col-md-9 {
+    display: none;
+  }
+  #location .container .row .col-md-3 h1 {
+    font-size: 2rem;
+  }
+  #updated .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #updated .container .col-md-8 h1 {
+    font-size: 2.3rem;
+  }
+  #updated .container .col-md-8 p {
+    font-size: 1rem;
+  }
+  #gallery .container .col .slider div .image {
+    height: 250px;
+  }
+  #ceo .container .row .col-md-9 p {
+    font-size: 1rem;
+  }
+  footer .container .row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
